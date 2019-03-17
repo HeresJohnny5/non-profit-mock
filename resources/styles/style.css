@@ -12,6 +12,14 @@
 	padding: 0;
 }
 
+.section-header {
+	padding-bottom: 3em;
+}
+
+.featurette-heading {
+	font-weight: 300;
+}
+
 /********************/
 /* HERO IMG CSS */
 /********************/
@@ -21,4 +29,19 @@
 	background-position: center;
 	background-size: cover;
 	height: 100vh;
+}
+
+/********************/
+/* ABOUT CSS */
+/********************/
+#about {
+	margin: 5em 0;
+}
+
+/********************/
+/* STAFF CSS */
+/********************/
+#staff {
+	background-color: #f0f0f0;
+	padding-top: 5em;
 }
