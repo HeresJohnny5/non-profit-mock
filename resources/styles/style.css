@@ -1,0 +1,24 @@
+/********************/
+/* BRANDING */
+/********************/
+
+/********************/
+/* UNIVERSAL CSS */
+/********************/
+* {
+	box-sizing: border-box;
+	/* The box-sizing propery is used to tell the browser what the sizing properties (width and height) should include; border-box includes content, padding, and border, but not the margin */
+	margin: 0;
+	padding: 0;
+}
+
+/********************/
+/* HERO IMG CSS */
+/********************/
+.background-image {
+	background-attachment: fixed;
+	background-image: url('https://images.unsplash.com/photo-1447357704087-5de405e80f38?ixlib=rb-1.2.1&auto=format&fit=crop&w=1317&q=80');
+	background-position: center;
+	background-size: cover;
+	height: 100vh;
+}
