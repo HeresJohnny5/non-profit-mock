@@ -41,7 +41,7 @@
 /********************/
 /* STAFF CSS */
 /********************/
-#staff {
+#staff, #partners {
 	background-color: #f0f0f0;
 	padding: 5em 0;
 }
@@ -49,13 +49,15 @@
 /********************/
 /* STAFF CSS */
 /********************/
-#projects {
-	padding: 5em;
-}
+
 
 /********************/
 /* PROJECT CSS */
 /********************/
+#projects {
+	padding: 5em;
+}
+
 .projects {
 	display: grid;
 	grid-gap: 10px;
@@ -108,3 +110,7 @@
 .six {
 	grid-area: six;
 }
+
+/********************/
+/* PARTNERS CSS */
+/********************/
